@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">bootstrap 5</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#">About US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://zcode.io/sites/default/files/news/boostrap_img.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>First Slide</h5>
+                    <p>"This is the 1st Slide"</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.geeksread.com/wp-content/uploads/2018/05/Lesson-1-What-is-Bootstrap-1.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Second Slide</h5>
+                    <p>"This is the 2nd Slide"</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/488f115d-6e44-4ccd-b238-b2699af64966/d7bmuby-04d917d9-1cee-4f57-8296-ec8b7f0d2d1f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80ODhmMTE1ZC02ZTQ0LTRjY2QtYjIzOC1iMjY5OWFmNjQ5NjYvZDdibXVieS0wNGQ5MTdkOS0xY2VlLTRmNTctODI5Ni1lYzhiN2YwZDJkMWYuanBnIn1dXX0.wClHfSD3oCjzHg1FrXb-hIz6d0r_v5fpmFYjzToBiOc"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Third Slide</h5>
+                    <p>"This is the 3rd Slide"</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+    <section class="my-5">
+        <h1 class="text-center display-5">About Us</h1>
+        <hr class="w-25 mx-auto" />
+    </section>
+
+    <div class="card container border mx-auto">
+        <div class="row mt-3">
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                <figure>
+                    <img src="https://www.thewowstyle.com/wp-content/uploads/2015/03/Desktop-Wallpaper-HD2.jpg"
+                        alt="img" class="img-fluid about-img" />
+                </figure>
+            </div>
+            <div class="contact-us col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center flex-column">
+                <h1 class="display-5">We are</h1>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <div class="col-xxl-12">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Tooltip on right">Contact Us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Services heading -->
+    <!-- <section class="text-center">
+    </section> -->
+
+    <section class="bg-light col-xl-12 col-12 services my-5">
+        <div class="container pb-3">
+            <section class="my-5">
+                <h1 class="text-center display-5">Services</h1>
+                <hr class="w-25 mx-auto" />
+            </section>
+
+            <div class="row">
+
+                <div class="col-xxl-4 col-xl-4 col-md-4 col-11 mx-auto my-2 d-flex border p-0">
+                    <div class="col-xxl-4" style="height: 220px">
+                        <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="img-fluid h-100 w-100" alt="...">
+                    </div>
+                    <div class="col-xxl-8 d-flex flex-column justify-content-center px-2">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-md-4 col-11 mx-auto my-2 d-flex border p-0">
+                    <div class="col-xxl-4" style="height: 220px">
+                        <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="img-fluid h-100 w-100" alt="...">
+                    </div>
+                    <div class="col-xxl-8 d-flex flex-column justify-content-center px-2">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-md-4 col-11 mx-auto my-2 d-flex border p-0">
+                    <div class="col-xxl-4" style="height: 220px">
+                        <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            class="img-fluid h-100 w-100" alt="...">
+                    </div>
+                    <div class="col-xxl-8 d-flex flex-column justify-content-center px-2">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+
+                <div class="col-xxl-12 text-center my-3">
+                    <button type="button" class="btn btn-outline-secondary mt-5 px-3" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Tooltip on right">Check more
+                    </button>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section class="Gallery">
+        
+        <section class="my-5">
+            <h1 class="text-center display-5">Gallery</h1>
+            <hr class="w-25 mx-auto" />
+        </section>
+        
+        <div class="container">
+            <div class="row" style="margin: auto 50px">
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStOZd4xZt_AqHlTL3Ce-isH_duIcuApJyiug&usqp=CAU"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://i.ytimg.com/vi/4t0eY_2E21s/maxresdefault.jpg" alt="Gallery"
+                            class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?size=626&ext=jpg"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbvzOqPlytkJf_VPn_vQ4hFXUrH-_ASBOPDw&usqp=CAU"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdh7nu76eqyCaabSO1azEeiypKtzqLsKxcjQ&usqp=CAU"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?size=626&ext=jpg"
+                            alt="Gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://www.wallpapertip.com/wmimgs/81-815278_beautiful-purple-nature-purple-and-pink-nature.jpg"
+                            alt="Gallery" class="img-fluid " />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto gx-3">
+                    <figure>
+                        <img src="https://images.pexels.com/photos/863963/pexels-photo-863963.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="Gallery" class="img-fluid " />
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-12 text-center my-3">
+            <button class="btn btn-outline-primary">
+                Show more</button>
+        </div>
+    </section>
+
+    <!-- check out my videos -->
+    <section class="my-5" style="background-color: rgb(151, 208, 231);">
+        <div class="row py-5 text-center text-white gy-2">
+            <h1>Check out my videos</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+            <div class="col-xxl-12">
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-box-arrow-in-right" viewBox="1 1 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                        <path fill-rule="evenodd"
+                            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                    </svg>
+                    Check more</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Check more</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Click below to check out my Github.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://github.com/asadalibest1/" target="_git">
+                        <button type="button" class="btn btn-primary">Go to website</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact US form -->
+    <section class="my-5">
+        <h1 class="text-center display-5">Join Us</h1>
+        <hr class="w-25 mx-auto" />
+    </section>
+
+    <section class="container">
+        <div class="row col-xxl-8 col-xl-8 col-md-8 col-10 mx-auto">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="name" class="form-control w-50" id="floatingInput" placeholder="Name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="mb-3">
+                    <span style="margin-right: 25px;">Gender</span>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            male
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            female
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Input File</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleDataList" class="form-label">Province</label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList"
+                        placeholder="Type to search...">
+                    <datalist id="datalistOptions">
+                        <option value="Sindh"></option>
+                        <option value="Balochistan"></option>
+                        <option value="KPK"></option>
+                        <option value="Punjab"></option>
+                        <option value="Kashmir"></option>
+                    </datalist>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Bio</label>
+                </div>
+
+                <button type="submit" class="btn btn-success mb-5 px-4">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-secondary text-center text-white py-3">
+        <p class="m-0">@copyright xyz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+
+</html>
